@@ -1,0 +1,17 @@
+<!--pages/introduce/introduce.wxml-->
+<!-- <text>pages/introduce/introduce.wxml</text> -->
+<view class="wrapper">
+  <view class="plat">
+    <!-- <view>哎嘛！</view> -->
+    <view>承蒙厚爱</view>
+    <view>笔者来自东油</view>
+    <view>致力于表达东油学弟学妹的小心思</view>
+    <view>实习时间写此小程序</view>
+    <view>如果你中意哪位小哥哥小姐姐了</view>
+    <view>那就来表白吧...</view>
+    <view>此小程序仅作为娱乐之用，严禁用作其他用途</view>
+    <view>如果你有好建议，欢迎反馈</view>
+    <!-- <view>微信：15046644304</view> -->
+    <image src='../../image/key.jpg' class="img"></image>
+  </view>
+</view>

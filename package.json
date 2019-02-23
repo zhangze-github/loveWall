@@ -1,0 +1,21 @@
+{
+  "name": "koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-route": "^3.2.0",
+    "mysql": "^2.16.0",
+    "node-mysql-promise": "0.0.7"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "generate": "nuxt generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

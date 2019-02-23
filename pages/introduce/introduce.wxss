@@ -1,0 +1,15 @@
+/* pages/introduce/introduce.wxss */
+page {
+  /* background-color:#f6dad6; */
+}
+.plat{
+  border-bottom:5rpx solid #f0f0f0;
+  border-top:5rpx solid #f0f0f0;
+  margin:150rpx 50rpx 0rpx 50rpx;
+  font-size:40rpx;
+  padding:20rpx 0;
+}
+.img{
+  width: 300rpx;
+  height: 300rpx;
+}

@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/introduce/introduce",
+    "pages/saylove/saylove"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f6dad6",
+    "navigationBarTitleText": "东油表白墙",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "red",
+    "borderStyle": "red",
+    "backgroundColor": "#f0f0f0",
+    "list": [
+      {
+        "pagePath": "pages/saylove/saylove",
+        "text": "我要表白",
+        "iconPath": "image/2.png",
+        "selectedIconPath": "image/3.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "最新表白",
+        "iconPath": "image/4.png",
+        "selectedIconPath": "image/5.png"
+      },
+      {
+        "pagePath": "pages/introduce/introduce",
+        "text": "小编有话说",
+        "iconPath": "image/6.png",
+        "selectedIconPath": "image/7.png"
+      }
+    ]
+  }
+}

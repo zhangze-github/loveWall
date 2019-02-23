@@ -1,0 +1,27 @@
+<!--pages/saylove/saylove.wxml-->
+<!-- <text>pages/saylove/saylove.wxml</text> -->
+
+
+<!-- <import src="../../libs/ToolTip/toolTip.wxml"/> -->
+<view id="app">
+	<form catchsubmit="formSubmit" catchreset="formReset" >
+		<view class="post-container">
+			<input placeholder="表白给谁" name="title" class="input-title" bindinput="titleEventFunc"
+			       placeholder-class="input-class" />
+			<!--<textarea name="content" placeholder="表白内容"  maxlength="150" />-->
+			<textarea class="textarea" name="content" maxlength="150" focus="{{focus}}" placeholder="表白内容..."
+			          bindinput="contentEventFunc"/>
+			<view class="btn-group">
+				<button class="btn-sumbit" hover-class="btn-active" form-type="submit">
+					发表
+				</button>
+				<button class="btn-reset" hover-class="btn-active" form-type="reset">
+					清空
+				</button>
+			</view>
+		</view>
+	</form>
+</view>
+<!--提示信息框-->
+<!-- <template is="toolTip" data="{{_toolTip_}}"/> -->
+<!--提示信息框-->

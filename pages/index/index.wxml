@@ -1,0 +1,13 @@
+<!--pages/index/index.wxml-->
+<!-- <text>pages/index/index.wxml</text> -->
+<view class="plat">
+ <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>   -->
+ <block wx:for="{{getData}}"  wx:key='xxx'>
+    <!-- <text class="">{{index + 1}}</text> -->
+    <view class="wrapper">
+        <!-- <button bindtap="setPlain">查看数据</button> -->
+        <view class="title">{{item.title}}</view> 
+        <view class="message">{{item.message}}</view>
+    </view>
+  </block>
+</view>
